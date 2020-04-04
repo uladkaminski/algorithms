@@ -1,3 +1,5 @@
+package com.uladkaminski.sorting;
+
 import com.uladkaminski.sorting.MergeSort;
 import com.uladkaminski.sorting.QuickSort;
 import com.uladkaminski.sorting.Sort;

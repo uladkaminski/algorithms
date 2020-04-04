@@ -7,7 +7,6 @@ public class MergeSort implements Sort {
         if (array.length <= 1) {
             return array;
         }
-
         mergeSort(array, array.length);
         return array;
     }
