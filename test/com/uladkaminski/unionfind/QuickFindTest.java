@@ -5,13 +5,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class QuickUnionFindTest {
+public class QuickFindTest {
 
     private UnionFind sut;
 
     @Before
-    public void setUp() throws Exception {
-        sut = new QuickUnionFind(5);
+    public void setUp() {
+        sut = new QuickFind(5);
     }
 
     @Test
